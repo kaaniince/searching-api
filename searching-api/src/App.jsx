@@ -1,12 +1,12 @@
-import { useState } from "react";
-
 import "./App.css";
+import SearchHeader from "./SearchHeader";
 
 function App() {
   return (
-    <div className="App">
-      <div class="p-5 sm:p-8">
-        <div class="columns-1 gap-5 sm:columns-2 sm:gap-8 md:columns-3 lg:columns-4 [&>img:not(:first-child)]:mt-8">
+    <div className="App p-5 sm:p-8">
+      <SearchHeader />
+      <div>
+        <div className="columns-1 gap-5 sm:columns-2 sm:gap-8 md:columns-3 lg:columns-4 [&>img:not(:first-child)]:mt-8">
           <img src="https://source.unsplash.com/bYuI23mnmDQ" alt="" />
           <img src="https://source.unsplash.com/Nllx4R-2c3o" alt="" />
           <img src="https://source.unsplash.com/lp40q07DIe0" alt="" />
